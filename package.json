@@ -5,11 +5,11 @@
   "type": "module",
   "homepage": "https://youssefhamad007.github.io/Youssef_Hamad_Portfolio",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "preview": "vite preview"
   },
   "dependencies": {
